@@ -1,1 +1,1 @@
-# goit-neo-react-hw-01
+# goit-neo-react-hw-module1

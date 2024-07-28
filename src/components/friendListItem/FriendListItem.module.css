@@ -1,0 +1,33 @@
+.friendCard {
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+}
+
+.friendName {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.friendStatus {
+  font-size: 18px;
+}
+
+.friendStatus {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.online {
+    composes: friendStatus;
+    color: green;
+}
+
+.offline {
+    composes: friendStatus;
+    color: red;
+}
+

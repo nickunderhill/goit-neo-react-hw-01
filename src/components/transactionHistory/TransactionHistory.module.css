@@ -1,0 +1,27 @@
+.transactionTable {
+  min-width: 640px;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+.transactionHeader {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+
+.transactionRow {
+  text-align: center;
+}
+
+.transactionCell {
+  border: 1px solid #333;
+}
+
+.transactionRow:nth-child(odd) {
+  background-color: rgb(245, 245, 245);
+}
+
+.transactionRow:nth-child(even) {
+  background-color: rgb(210, 210, 210);
+}
